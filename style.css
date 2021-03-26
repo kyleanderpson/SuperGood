@@ -1,0 +1,244 @@
+@font-face {
+  font-family: beyblade;
+  src: url(bebas.ttf);
+}
+
+.bigText {
+  font-family: beyblade;
+  font-size: 82pt;
+}
+
+
+.mainContainerBlack {
+  background-color: #060807;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.mainContainerWhite {
+  background-color: #ffffff;
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+}
+
+.centerContent {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  filter: drop-shadow(8px 8px 8px black);
+}
+
+.insertCoin {
+  display: inline-block;
+  position: fixed;
+}
+
+.quarterLink {
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 120px;
+  left: 190px;
+  width:640px;
+  /* background-color: rgba(255,0,0,0.5); */
+
+}
+
+.quarterLink:active {
+  justify-content: flex-start;
+  /* background-color: rgba(0,0,255,0.5); */
+}
+
+.clockImage {
+  position: fixed;
+  height: 80vh;
+  width: 80vw;
+  left: 333px;
+}
+
+.timeIsTicking {
+position: fixed;
+left: 333px;
+top: 440px;
+}
+
+.slowyork {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.backwards {
+  position: fixed;
+  left: 50px;
+  top: 150px;
+}
+
+.timeMovesBackwards {
+  position: absolute;
+  left: 55px;
+  font-family: beyblade;
+  font-size: 35pt;
+}
+
+.bumblebee {
+  position: fixed;
+  right: 50px;
+  top: 100px;
+}
+
+.splitPees {
+  position: absolute;
+  left: 55px;
+  font-family: beyblade;
+  font-size: 25pt;
+}
+
+.tulipPic {
+  position: fixed;
+  right: 0px;
+  top: 200px;
+}
+
+.mushroom0 {
+  position: fixed;
+  left: 5px;
+  top: 41px;
+}
+
+.mushroomCloud {
+  position: absolute;
+  left: 55px;
+  font-family: beyblade;
+  font-size: 19pt;
+}
+
+.splitPoem {
+  display: block;
+}
+
+.leftText {
+  display: block;
+  position: relative;
+  left: 55px;
+}
+
+.rightText {
+  display: block;
+  position: relative;
+  left: 40vw;
+}
+
+.redCar {
+  position: fixed;
+  left: 5px;
+  top: 200px;
+}
+
+.fingerPoint {
+  position: fixed;
+  right: 0px;
+  top: 250px;
+}
+
+.brownBananas{
+  position: fixed;
+  left: 50px;
+  top: 250px;
+}
+
+.imBored {
+  position: absolute;
+  left: 55px;
+  font-family: beyblade;
+  font-size: 19pt;
+}
+
+.bagFace {
+  position: fixed;
+  right: 55px;
+  top: 55px;
+}
+
+.tripleVideo {
+  position: absolute;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.subwayBottom {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.subwayTop {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+}
+
+.willywalk {
+  position: absolute;
+  left: 55px;
+  font-family: beyblade;
+  font-size: 26pt;
+}
+
+.doubleWalk {
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.canalStreet {
+  position: fixed;
+  bottom: 0px;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.negativeTransition {
+  position: fixed;
+  left: 300px;
+  bottom: 0px;
+}
+
+.restart {
+  position: fixed;
+  bottom: 0px;
+  left: 55px;
+  font-family: beyblade;
+  font-size: 30pt;
+}
